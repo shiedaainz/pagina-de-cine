@@ -1,0 +1,71 @@
+/* spacing */
+
+table {
+  table-layout: fixed;
+  width: 40%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+ select {
+  
+  width: 4%;
+  border-collapse: collapse;
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 10px;
+}
+
+
+input[type="radio"]  {
+    content: "";
+    width: 26px;
+    height: 26px;    
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    background: #fff;
+    border-radius: 100%;
+}
+
+label  {
+    content: "";
+    font-size: 25px;
+    width: 26px;
+    height: 26px;    
+    margin: 20px auto;
+    
+    
+}
+
+ input[type="submit"] {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 25px 35px 0;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+}
+
+input[type="submit"]:hover {
+    background: red;
+}
